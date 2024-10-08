@@ -57,4 +57,3 @@ Object.setPrototypeOf(jim2, Student); //jim will inherit all properties of Stude
 jim2.entroll({courseId: 'CS101'});
 display(jim2.enrolledCourses);
 display(jim2.fullName());  //keep complexity of multi level inheritance not too complex
-
