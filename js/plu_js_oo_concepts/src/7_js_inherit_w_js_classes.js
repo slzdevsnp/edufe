@@ -7,7 +7,7 @@ class Person {
       this.lastName = lastName;
       this.age = age;
     }
-    
+    ß
     isAdult() {
       return this.age >= 18;
     }
@@ -28,16 +28,15 @@ class Person {
       }
   }
   
-  let jim = new Student('Jim', 'Cooper', 18, [{courseId: 'CS101'}, {courseId: 'Math101'}]);
-  let jimPerson = new Person('Jim', 'Cooper', 18);
+let jim = new Student('Jim', 'Cooper', 18, [{courseId: 'CS101'}, {courseId: 'Math101'}]);
+let jimPerson = new Person('Jim', 'Cooper', 18);
 
-  display(jim.courses[0]);
-  display(jim.firstName);
-  //display(jim.isAdult());
+display(jim.courses[0]);
+display(jim.firstName);
 
-  display(jim instanceof Student)
-  display(jim instanceof Person)
-  
+display(jim instanceof Student)
+display(jim instanceof Person)
+
 
 display(jim.isAdult());
 display(jimPerson.isAdult());
