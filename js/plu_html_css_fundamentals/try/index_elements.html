@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="craig-shoemaker" class="card">
+        <h1>Craig Shoemaker</h1>
+        <ul>
+          <li><a href="https://twitter.com/craigshoemaker" class="tag">Twitter</a></li>
+          <li><a href="https://github.com/craigshoemaker"   
+       class="tag">GitHub</a></li>
+        </ul>
+      </section>
+      
+      <section id="john-papa" class="card">
+        <h1>John Papa</h1>
+        <ul>
+          <li><a href="https://twitter.com/john_papa" class="tag">Twitter</a></li>
+          <li><a href="https://github.com/johnpapa" class="tag">GitHub</a></li>
+        </ul>
+      </section>
+      <script>
+        let links = document.querySelectorAll(".tag");
+        links.forEach(function(link){
+            link.setAttribute("target", "_blank"); //now clicking on a link opens it in a new browser tab
+        });
+      </script>
+    </body>
+</html>

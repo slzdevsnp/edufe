@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripot</title>
+</head>
+<body>
+    <script>
+    // literals
+    let person = {
+        firstName: "Craig",
+        lastName: "Shoemaker",
+        twitter: "@craigsshoemaker",
+        greet: function(){
+            console.log("my name is " + this.firstName + " " + this.lastName);
+        }
+    }
+    console.log(person);
+    person.greet()
+
+    //arrays
+    let myarray = ['wash','rince', 'repeat'];
+    console.log(myarray);
+    let idx = 0;
+    let max = 3;
+
+    while(idx < max){
+        console.log(myarray[idx]);
+        idx += 1;
+    } 
+    //for loop
+    for (let i = 0; i < myarray.length; i++){
+        console.log(myarray[i]);
+    }
+
+
+    //foreach  neeeds to define a function  for forEach
+    myarray.forEach(function(el,index){
+        console.log(`element: ${el}, index: ${index}`);
+    });
+    // also works
+    function showElement(el){
+      console.log(`elementg: ${el}`);
+    }
+    
+    myarray.forEach(showElement);
+
+    //debugging
+    let first = "Craig";
+    let last = "Smith";
+    let name = first + last;
+
+
+    
+
+
+
+    
+    </script>
+    
+</body>
+</html>

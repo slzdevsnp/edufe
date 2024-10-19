@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripot</title>
+</head>
+<body>
+    <script>
+        let name = "Tailer";
+        function greet(name){
+            if (name == "Craig"){
+                console.log("Hi Graig!");
+            } else {
+                console.log("But where is Craig?");
+            }
+        }
+        function greetAlt(name){
+            return 'Greetings, ' + name
+        }
+        greet(name);
+        greet("Craig");
+        console.log(greetAlt("John Malkovich"));
+
+        function add(number1, number2){
+            return number1 + number2;
+        }
+
+        let sum = add(2,3);
+        console.log('summying up gives ' + sum);
+    </script>
+    
+</body>
+</html>
