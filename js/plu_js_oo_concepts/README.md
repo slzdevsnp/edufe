@@ -1,3 +1,6 @@
+#coursware
+https://app.pluralsight.com/library/courses/javascript-object-oriented-concepts/table-of-contents
+
 this project can be ran in vscode using the extension Live Server
 
 # how to run
